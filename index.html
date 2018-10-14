@@ -5,15 +5,32 @@
 		<title>Make Cookies</title>
 	</head>
 	<body>
-		<h1 id="cookie-counter">0</h1>
-		<hr>
-		<h2>Shop</h2>
-		<hr>
-		<p>Click Power</p>
-		<p>Produces <span id="click-power-multiple">1</span> cookie(s) per click</p>
-		<button id="buy-click-power">Buy for <span id="click-power-price">50</span></button>
-		<p>level: <span id="click-power-level">1</span></p>
-		<button id="cookie-clicker">Make Cookies</button>
+		<header>
+			<h1>Cookie Cooker</h1>
+			<p><span id="cookie-counter">0</span> Cooked Cookies</p>
+		</header>
+		<button id="cookie-clicker">Bake Now!</button>
+
+		<hr />
+
+		<section>
+			<h2>Shop</h2>
+			<div>
+				<h3>Click Power</h3>
+				<p>Produces <span id="click-power-multiple">1</span> cookie(s) per click</p>
+				<button id="buy-click-power">Buy for <span id="click-power-price">50</span></button>
+				<p>level: <span id="click-power-level">1</span></p>
+			</div>
+
+			<div>
+				<h3>Grandmas</h3>
+				<p>Produces <span id="grandma-multiple">0</span> cookie(s) per second</p>
+				<button id="buy-grandma">Buy for <span id="grandma-price">500</span></button>
+				<p>level: <span id="grandma-level">0</span></p>
+			</div>
+		</section>
+
+		<hr />
 
 
 		<script src="./scripts.js"></script>
